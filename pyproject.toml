@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "python-common-code"
+version = "0.1.0"
+description = ""
+authors = ["acc"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openpyxl = "^3.1.2"
+flake8 = "^6.0.0"
+beautifulsoup4 = "^4.12.2"
+mysql-connector-python = "^8.0.33"
+gdal = "^3.6.4"
+chardet = "^5.1.0"
+numpy = "^1.24.3"
+shapely = "^2.0.1"
+yapf = "^0.33.0"
+pep8-naming = "^0.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
